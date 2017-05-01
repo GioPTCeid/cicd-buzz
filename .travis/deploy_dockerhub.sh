@@ -6,4 +6,4 @@ else
     TAG="$TRAVIS_BRANCH"
 fi
 docker build -f Dockerfile -t gioptceid_cicd-buzz:$TAG .
-docker push cicd-buzz
+docker push gioptceid_cicd-buzz
